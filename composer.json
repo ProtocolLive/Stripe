@@ -1,0 +1,22 @@
+{
+  "name": "protocollive/stripe",
+  "description": "A library to easy handling with Stripe payment provider",
+  "type": "library",
+  "require": {
+      "php": ">=8.1",
+      "ext-openssl": "*",
+      "ext-curl": "*"
+  },
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Protocol Corporation",
+          "email": "protocollive@outlook.com"
+      }
+  ],
+  "autoload": {
+      "classmap": [
+          "src/"
+      ]
+  }
+}
