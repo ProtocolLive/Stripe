@@ -5,7 +5,7 @@
 
 namespace ProtocolLive\Stripe;
 
-class TransactionBalance{
+class BalanceTransaction{
   public readonly string $Id;
   public readonly int $Amount;
   public readonly int $Available;
