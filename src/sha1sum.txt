@@ -1,9 +1,9 @@
 b574eee7e1431c83bca107af65f505c8831905e6  BalanceTransaction.php
 2f8b2810e9140372d9e1861cb20c532852b4a6ba  Currencies.php
 f73710095188adecc24de47fe4016f0c4777ebf8  Errors.php
-39ac301290e6757fedd4e87d8ad2747eafa3b61b  Esception.php
+73ff1e9ccfaa2b9d53f5b32ea1e1734763d66857  Exception.php
 d78caf7f2d88195c285931f61bd9dbf7351fbc8a  Methods.php
 c3bbb2cbb9a4a2ac2436838eb85ddfcc2d2cacf3  Status.php
-14b4f063c9743278202b01368ffca0f28d4b50c2  Stripe.php
+91d3608d7d888fb2f6f1fb7275ea3036710d2b9d  Stripe.php
 83a9377f96c55b01917ffb4612fb01a5b1f5fc1f  Types.php
 3c4a17b6c725462993e42152c5ba97645168243a  cacert.pem
