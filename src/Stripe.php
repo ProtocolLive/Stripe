@@ -1,10 +1,12 @@
 <?php
 //Protocol Corporation Ltda.
 //https://github.com/ProtocolLive/Stripe
-//Version 2022.09.26.01
 
 namespace ProtocolLive\Stripe;
 
+/**
+ * @version 2024.01.02.00
+ */
 final class Stripe{
   const Url = 'https://api.stripe.com/v1/';
 
@@ -19,7 +21,6 @@ final class Stripe{
   ):BalanceTransaction|null{
     $curl = curl_init();
     curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-    curl_setopt($curl, CURLOPT_USERAGENT, 'Protocol TelegramBotLibrary');
     curl_setopt($curl, CURLOPT_CAINFO, __DIR__ . '/cacert.pem');
     curl_setopt($curl, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
     curl_setopt($curl, CURLOPT_USERPWD, $this->Token . ':');
