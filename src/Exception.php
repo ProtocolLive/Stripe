@@ -1,11 +1,14 @@
 <?php
 //Protocol Corporation Ltda.
 //https://github.com/ProtocolLive/Stripe
-//Version 2022.09.26.00
 
 namespace ProtocolLive\Stripe;
 
-class Exception extends \Exception{
+/**
+ * @version 2024.01.02.00
+ */
+final class Exception
+extends \Exception{
   /**
    * @param Errors $code The Exception code.
    * @param string $message [optional] The Exception message to throw.
