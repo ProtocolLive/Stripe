@@ -6,4 +6,4 @@ d78caf7f2d88195c285931f61bd9dbf7351fbc8a  Methods.php
 c3bbb2cbb9a4a2ac2436838eb85ddfcc2d2cacf3  Status.php
 91d3608d7d888fb2f6f1fb7275ea3036710d2b9d  Stripe.php
 83a9377f96c55b01917ffb4612fb01a5b1f5fc1f  Types.php
-3c4a17b6c725462993e42152c5ba97645168243a  cacert.pem
+749a501ae8e331f93b6f0cea0d82cce356a732c4  cacert.pem
